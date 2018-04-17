@@ -12,6 +12,8 @@
 		14E241752085A4BA00DF3CBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E241732085A4BA00DF3CBF /* Main.storyboard */; };
 		14E241772085A4BA00DF3CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E241762085A4BA00DF3CBF /* Assets.xcassets */; };
 		14E2417A2085A4BA00DF3CBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E241782085A4BA00DF3CBF /* LaunchScreen.storyboard */; };
+		14E241882085AAD300DF3CBF /* lamp_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E241862085AAD300DF3CBF /* lamp_0.png */; };
+		14E241892085AAD300DF3CBF /* lamp_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E241872085AAD300DF3CBF /* lamp_1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		14E241762085A4BA00DF3CBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14E241792085A4BA00DF3CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14E2417B2085A4BA00DF3CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E241862085AAD300DF3CBF /* lamp_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_0.png; sourceTree = "<group>"; };
+		14E241872085AAD300DF3CBF /* lamp_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		14E2416E2085A4BA00DF3CBF /* Electric bulb */ = {
 			isa = PBXGroup;
 			children = (
+				14E241812085A61D00DF3CBF /* image */,
 				14E2416F2085A4BA00DF3CBF /* AppDelegate.swift */,
 				14E241712085A4BA00DF3CBF /* ViewController.swift */,
 				14E241732085A4BA00DF3CBF /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				14E2417B2085A4BA00DF3CBF /* Info.plist */,
 			);
 			path = "Electric bulb";
+			sourceTree = "<group>";
+		};
+		14E241812085A61D00DF3CBF /* image */ = {
+			isa = PBXGroup;
+			children = (
+				14E241862085AAD300DF3CBF /* lamp_0.png */,
+				14E241872085AAD300DF3CBF /* lamp_1.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +138,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				14E2417A2085A4BA00DF3CBF /* LaunchScreen.storyboard in Resources */,
+				14E241892085AAD300DF3CBF /* lamp_1.png in Resources */,
 				14E241772085A4BA00DF3CBF /* Assets.xcassets in Resources */,
+				14E241882085AAD300DF3CBF /* lamp_0.png in Resources */,
 				14E241752085A4BA00DF3CBF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
